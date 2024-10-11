@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Provider} from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import store from './redux/store.js'
+import "react-toastify/dist/ReactToastify.css";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

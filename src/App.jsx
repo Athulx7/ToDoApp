@@ -9,6 +9,7 @@ import { addTotask } from "./redux/tasks";
 import Sub from "./Sub";
 import Completed from "./Completed";
 import {v4 as uuidv4} from 'uuid'
+import {toast, ToastContainer } from "react-toastify";
 
 function App() {
  
@@ -40,7 +41,7 @@ function App() {
     
 
     if(!tasks.title || !tasks.description){
-      alert("heoksn")
+     alert("please fill the form completely")
     }
     else{
       const newTask = {
@@ -163,6 +164,8 @@ const [completdCompo,setcompleted] = useState(false)
            
         </div>
       </div>
+     
+    
     </>
   );
 }
