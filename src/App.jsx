@@ -100,7 +100,7 @@ const [completdCompo,setcompleted] = useState(false)
               }
               type="text"
               className="bg-white form-control ms-5 me-5 me-auto w-50"
-              placeholder="ENTER THE TASK TITLE"
+              placeholder=" TASK TITLE"
             />
             <input
               value={tasks.description}
@@ -109,7 +109,7 @@ const [completdCompo,setcompleted] = useState(false)
               }
               type="text"
               className="bg-white form-control ms-5 me-5 w-50 "
-              placeholder="ENTER A SMALL DISCRIPTION"
+              placeholder="DISCRIPTION"
             />
           </div>
 
